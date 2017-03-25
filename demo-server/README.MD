@@ -4,16 +4,19 @@ To start this application, first the database needs to be configured. Then, the 
 
 ###### For setting the database, execute following steps.
 1. Download derby
-  Go to [Apache Derby official releases page](https://db.apache.org/derby/derby_downloads.html) , download and extract the latest archive.
+
+Go to [Apache Derby official releases page](https://db.apache.org/derby/derby_downloads.html) , download and extract the latest archive.
 
 2. Start Apache Derby Network Server (the database server used by application)
-  Go to /place/where/you/extracted/derby/bin, run:
+
+Go to /place/where/you/extracted/derby/bin, run:
 ```shell
   sh startNetworkServer
 ```
 
 3. Download SQuirreL SQL Client
-   Go to [SQuirreL SQL Client download page](http://squirrel-sql.sourceforge.net/#installation) , download the latest jar and run it; running this jar will install SQuirreL SQL Client
+
+Go to [SQuirreL SQL Client download page](http://squirrel-sql.sourceforge.net/#installation) , download the latest jar and run it; running this jar will install SQuirreL SQL Client
 
 4. Connect to the Derby datatabase using SQuirreL SQL Client
     * Open SQuirreL SQL Client, then go to Drivers, then edit Apache Derby Client (select this driver, then press the pencil button)
